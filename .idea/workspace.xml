@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7fcc28e-438a-4390-a3a2-5bb9160e9911" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="b7fcc28e-438a-4390-a3a2-5bb9160e9911" name="Default" comment="initial">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vocabist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +42,7 @@
     <file path="/fragment.java" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371001125126" ignored="false" />
     <file path="/learn.xhtml" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371009032631" ignored="false" />
     <file path="/QaAnswerExampleMd.java" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371008833586" ignored="false" />
-    <file path="/Dummy.txt" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483434883" ignored="false" />
+    <file path="/Dummy.txt" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483762495" ignored="false" />
     <file path="/vocabist.js" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371357154929" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2_1.xsd" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483399262" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483399262" ignored="false" />
@@ -174,7 +175,7 @@
       <file leaf-file-name="QaAnswerExampleMd.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vocabist/entity/model/QaAnswerExampleMd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="75" selection-start="723" selection-end="723" vertical-scroll-proportion="0.33222592">
+            <state line="37" column="39" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.64285713">
               <folding />
             </state>
           </provider>
@@ -302,7 +303,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="D:/GitHubRepo" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -547,14 +548,18 @@
       <created>1371483453915</created>
       <updated>1371483453915</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <created>1371483466653</created>
+      <updated>1371483466653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -575,7 +580,7 @@
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67022413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67022413" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -778,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vocabist/entity/model/QaAnswerExampleMd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="75" selection-start="723" selection-end="723" vertical-scroll-proportion="0.33222592">
+        <state line="37" column="39" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.64285713">
           <folding />
         </state>
       </provider>

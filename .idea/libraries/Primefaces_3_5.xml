@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Primefaces-3.5" type="jsf-primefaces">
+    <CLASSES>
+      <root url="jar://C:/DevTools/Primefaces/primefaces-3.5/primefaces-3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

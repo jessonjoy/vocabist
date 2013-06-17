@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="vocabist:EJB exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/vocabist_EJB_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="vocabist/ejb/EJB" />
+      <element id="module-output" name="vocabist" />
+    </root>
+  </artifact>
+</component>

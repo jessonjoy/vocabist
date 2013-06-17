@@ -2,51 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7fcc28e-438a-4390-a3a2-5bb9160e9911" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bean-validator.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javaee.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Bundle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_JPA_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JSF_2_2_mojarra.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_5_Java_EE_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/web/util/JsfUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/web/controller/LearnController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/web/util/PaginationHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/web/controller/PracticeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Primefaces_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaAnswerExampleMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaAnswerMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaChoicesMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaExtAttribMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaHintsMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaMetadataMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaQuestionMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/vocabist/entity/model/QaTypeMd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Themes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/glassfish-ejb-jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/layout/header.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/jquery-1.10.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/learn.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/practice.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/sun-ejb-jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/layout/template.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/vocabist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vocabist.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/vocabist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/vocabist_EJB_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vocabist.iws" />
@@ -86,7 +41,7 @@
     <file path="/fragment.java" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371001125126" ignored="false" />
     <file path="/learn.xhtml" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371009032631" ignored="false" />
     <file path="/QaAnswerExampleMd.java" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371008833586" ignored="false" />
-    <file path="/Dummy.txt" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483371508" ignored="false" />
+    <file path="/Dummy.txt" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483434883" ignored="false" />
     <file path="/vocabist.js" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371357154929" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2_1.xsd" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483399262" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483399262" ignored="false" />
@@ -588,6 +543,11 @@
       <created>1370402534774</created>
       <updated>1370402534774</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1371483453915</created>
+      <updated>1371483453915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">

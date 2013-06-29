@@ -44,8 +44,6 @@
     <orderEntry type="library" name="JSF-2.2_mojarra" level="project" />
     <orderEntry type="library" name="Primefaces-3.5" level="project" />
     <orderEntry type="library" name="Themes" level="project" />
-    <orderEntry type="library" name="Java EE 5-Java EE 5" level="project" />
-    <orderEntry type="library" name="JPA 2.0-JPA 2.0" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -56,6 +54,17 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Glassfish 3.1.2.2" level="application_server_libraries" />
   </component>
 </module>
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: jn
+  Date: 6/4/13
+  Time: 10:27 PM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition>
+    <div class="navbar-inner" >
+        <h:form styleClass="container">
+            <div id="logo" title="Go to Search Page" style="margin-right: 20px; text-align: center; float: left"
+                 onclick="location.href = '#{facesContext.externalContext.requestContextPath}/';">
+                <!--<h:outputLink value="#{request.contextPath}">-->
+                    <!---->
+                    <!--&lt;!&ndash;<h:graphicImage value="#{resource['images:APClogo2.gif']}" title="APC Logo" style="border:0;"/>&ndash;&gt;-->
+                <!--</h:outputLink>-->
+                <h:outputText value="Vocabist"/>
+            </div>
+            <p:menubar styleClass="transparent navbar-menu">
+                <p:menuitem value="Home" url="practice.jsf" icon="ui-icon-home" styleClass="nav" />
+                <p:menuitem value="Learn" url="learn.jsf" icon="ui-icon-note" />
+                <p:menuitem value="Practice" url="#" icon="ui-icon-pencil" />
+
+                <p:submenu label="Review">
+                    <p:menuitem value="WordList" url="#"/>
+                </p:submenu>
+                <f:facet name="options">
+                    <p:submenu label="Profile"/>
+                    <p:commandButton type="button" value="Logout" icon="ui-icon-extlink" />
+                </f:facet>
+            </p:menubar>
+        </h:form>
+    </div>
+</ui:composition>
+</html>

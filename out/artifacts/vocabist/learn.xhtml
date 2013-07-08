@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: jn
+  Date: 6/4/13
+  Time: 10:27 PM
+-->
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<ui:composition template="/layout/template.xhtml">
+    <ui:define name="title">
+        <h:outputText value="Practice" />
+    </ui:define>
+    <ui:define name="content">
+        <article>
+            <div class="container">
+                <p:inputText size="100"/>
+
+                <br/>
+                <p:panel styleClass="section2 left small outer">
+
+                    Something goes here.
+                    <br/>.
+                    <br/>.
+                    <br/>.
+                </p:panel>
+
+                <div class="outer">
+                    <p:panel styleClass="section2 left medium">
+                        Question goes here
+                        <br/>
+                        .
+
+                        <br/>.
+                        <br/>.
+                        <br/>.
+                        <br/>.
+                        <br/>.
+                        <br/>.
+                        <br/>
+                        .
+                        <br/>
+                        <f:facet name="footer">
+                            <div style="height: 45px">
+                                <p:button value="Next"/>
+                            </div>
+                        </f:facet>
+                    </p:panel>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </article>
+    </ui:define>
+</ui:composition>
+</html>

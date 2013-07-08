@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7fcc28e-438a-4390-a3a2-5bb9160e9911" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/layout/header.xhtml" afterPath="$PROJECT_DIR$/web/layout/header.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/layout/template.xhtml" afterPath="$PROJECT_DIR$/web/layout/template.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/css/vocabist.css" afterPath="$PROJECT_DIR$/web/resources/css/vocabist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b7fcc28e-438a-4390-a3a2-5bb9160e9911" name="Default" comment="" />
     <ignored path="vocabist.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/template.xhtml" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1372975677650" ignored="false" />
@@ -44,7 +39,7 @@
     <file path="/fragment.java" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1372971476003" ignored="false" />
     <file path="/learn.xhtml" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1372975837984" ignored="false" />
     <file path="/QaAnswerExampleMd.java" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371008833586" ignored="false" />
-    <file path="/Dummy.txt" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1373254260874" ignored="false" />
+    <file path="/Dummy.txt" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1373254285348" ignored="false" />
     <file path="/vocabist.js" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371357154929" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2_1.xsd" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483399262" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd" changelist="b7fcc28e-438a-4390-a3a2-5bb9160e9911" time="1371483399262" ignored="false" />
@@ -716,7 +711,11 @@
       <created>1373254263881</created>
       <updated>1373254263881</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="more wordnik integration">
+      <created>1373254294098</created>
+      <updated>1373254294098</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">

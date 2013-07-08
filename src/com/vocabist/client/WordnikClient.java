@@ -1,9 +1,12 @@
 package com.vocabist.client;
 
 import com.sun.jersey.spi.resource.Singleton;
+import com.vocabist.entity.info.VocabWord;
 import com.wordnik.client.api.WordApi;
 import com.wordnik.client.common.ApiException;
 import com.wordnik.client.model.Definition;
+import com.wordnik.client.model.ExampleSearchResults;
+import com.wordnik.client.model.Related;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
@@ -30,6 +33,44 @@ public class WordnikClient {
         log.log(Level.INFO,"Init");
     }
 
+    public static VocabWord getWordDetails(String word) {
+
+        VocabWord vWord = new VocabWord();
+        try {
+            init();
+
+            //get definitions
+            vWord.definitions = api.getDefinitions(
+                    word, //  word
+                    "", //  only get definitions which are "nouns"
+                    "", //  use wiktionary
+                    3, //  fetch only 3 results max
+                    "true", //  return related words
+                    "true", //  fetch the canonical version of this word (Cat => cat)
+                    "false" //  return XML mark-up in response
+            );
+
+            //get examples
+            ExampleSearchResults examples = api.getExamples(word,"false","false",0,5)  ;
+
+            vWord.examples = examples.getExamples();
+
+            //get etymology
+            vWord.etymologies = api.getEtymologies(word, "false");
+
+            //get phrases;
+            List<Related> relatedWords = api.getRelatedWords(word,"synonym","false",5);
+            for(Related r : relatedWords){
+                vWord.synonyms = r.getWords();
+            }
+
+        } catch (ApiException ex) {
+            Logger.getLogger(WordnikClient.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return vWord;
+    }
+
     public static Definition getWordDefinition(String word) {
         List<Definition> definitions = null;
         Definition definition= null;
@@ -40,7 +81,7 @@ public class WordnikClient {
                     word, //  word
                     "", //  only get definitions which are "nouns"
                     "", //  use wiktionary
-                    1, //  fetch only 3 results max
+                    3, //  fetch only 3 results max
                     "true", //  return related words
                     "true", //  fetch the canonical version of this word (Cat => cat)
                     "false" //  return XML mark-up in response

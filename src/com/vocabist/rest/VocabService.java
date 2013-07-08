@@ -1,6 +1,7 @@
 package com.vocabist.rest;
 
 import com.vocabist.client.WordnikClient;
+import com.vocabist.entity.info.VocabWord;
 import com.wordnik.client.model.Definition;
 
 import javax.ejb.Singleton;
@@ -29,6 +30,13 @@ public class VocabService {
     @Produces("application/json")
     public Definition getWordDefinition(@PathParam("word") String word) {
         return WordnikClient.getWordDefinition(word);
+    }
+
+    @GET
+    @Path("word/detail/{word}")
+    @Produces("application/json")
+    public VocabWord getWordDetails(@PathParam("word") String word) {
+        return WordnikClient.getWordDetails(word);
     }
 
     public static class WordDefJson
